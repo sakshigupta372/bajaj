@@ -3,7 +3,7 @@ import axios from 'axios'
 import Select from 'react-select'
 import './App.css'
 
-const API_URL = 'http://localhost:3000/bfhl' // Change this after deployment
+const API_URL = 'https://bajaj-y2y6.onrender.com/bfhl'
 
 const filterOptions = [
   { value: 'alphabets', label: 'Alphabets' },
